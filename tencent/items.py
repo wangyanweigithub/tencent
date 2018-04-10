@@ -12,14 +12,3 @@ class TecentItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
     pass
-
-
-class CityLink(scrapy.Item):
-    city = scrapy.Field()
-    link = scrapy.Field()
-
-
-class AreaCode(scrapy.Item):
-    city = scrapy.Field()
-    area_name = scrapy.Field()
-    area_code = scrapy.Field()
